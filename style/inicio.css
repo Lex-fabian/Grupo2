@@ -9,7 +9,6 @@ body {
     color: #333;
 }
 
-/* Encabezado */
 .cabeza {
     background-color: #0066cc;
     color: white;
@@ -25,7 +24,6 @@ body {
     letter-spacing: 1px;
 }
 
-/* Menú lateral */
 .menu-lateral {
     background-color: #0077dd;
     width: 200px;
@@ -57,14 +55,12 @@ body {
     padding-left: 25px;
 }
 
-/* Contenido principal */
 .cuerpo {
     margin-left: 220px;
     padding: 0;
     flex: 1;
 }
 
-/* Banner principal */
 .banner-principal {
     background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://via.placeholder.com/1600x800');
     background-size: cover;
@@ -105,14 +101,12 @@ body {
     background-color: #005bb8;
 }
 
-/* Contenedor general para secciones */
 .contenedor {
     padding: 60px 25px;
     max-width: 1200px;
     margin: 0 auto;
 }
 
-/* Títulos */
 .cuerpo h2 {
     color: #0066cc;
     margin-bottom: 20px;
@@ -127,7 +121,6 @@ body {
     margin-top: 0;
 }
 
-/* Sección Nosotros */
 .seccion-nosotros {
     background-color: #ffffff;
 }
@@ -159,7 +152,6 @@ body {
     margin-bottom: 15px;
 }
 
-/* Sección Misión y Visión */
 .seccion-mision-vision {
     background-color: #f8f9fa;
 }
@@ -186,7 +178,7 @@ body {
     margin-bottom: 20px;
 }
 
-/* Sección Equipo */
+
 .seccion-equipo {
     background-color: #ffffff;
 }
@@ -228,7 +220,6 @@ body {
     margin: 5px 0 0;
 }
 
-/* Pie de página */
 .pie-pagina {
     background-color: #333;
     color: white;
@@ -248,66 +239,6 @@ body {
     color: white;
     margin-left: 15px;
     font-size: 18px;
-}
-
-.redes-sociales a:hover {
-    color: #0077dd;
-}
-
-/* Diseño responsivo */
-@media (max-width: 768px) {
-    .menu-lateral {
-        width: 100%;
-        height: auto;
-        position: relative;
-    }
-    
-    .cuerpo, .pie-pagina {
-        margin-left: 0;
-    }
-    
-    .info-nosotros, .columnas-mv {
-        flex-direction: column;
-    }
-    
-    .contenido-pie {
-        flex-direction: column;
-        text-align: center;
-    }
-    
-    .banner-principal {
-        height: 400px;
-    }
-    
-    .contenido-banner h1 {
-        font-size: 32px;
-    }
-}
-
-.boton-mas:hover {
-    background-color: #005bb8;
-}
-
-.pie-pagina {
-    background-color: #333;
-    color: white;
-    padding: 20px;
-    margin-left: 200px;
-}
-
-.contenido-pie {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    max-width: 1200px;
-    margin: 0 auto;
-}
-
-.redes-sociales a {
-    color: white;
-    margin-left: 15px;
-    font-size: 18px;
-    transition: color 0.3s;
 }
 
 .redes-sociales a:hover {

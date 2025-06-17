@@ -319,32 +319,3 @@ body {
 .redes-sociales a:hover {
     color: #0077dd;
 }
-
-@media (max-width: 768px) {
-    .menu-lateral {
-        width: 100%;
-        height: auto;
-        position: relative;
-    }
-    
-    .cuerpo, .pie-pagina {
-        margin-left: 0;
-    }
-    
-    .servicios-lista {
-        grid-template-columns: 1fr;
-    }
-    
-    .contenedor-testimonios {
-        grid-template-columns: 1fr;
-    }
-    
-    .contenido-pie {
-        flex-direction: column;
-        text-align: center;
-    }
-    
-    .redes-sociales {
-        margin-top: 15px;
-    }
-}
