@@ -114,12 +114,12 @@ footer {
     transition: all 0.3s ease;
 }
 
-.icon-whatsapp:hover {
-    transform: scale(1.1);
-    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.3);
-}
 .info-contacto {
-  background-color: #e6f0ff; /* azul claro tecnológico */
+  background-image: url('../images/fondo-tecnologia.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white; /* para que el texto contraste con la imagen */
   padding: 20px;
   border-radius: 10px;
   margin-top: 20px;
