@@ -1,9 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/style/servicios.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <title>Servicios - TecnoInnovation</title>
 </head>
 <body>
@@ -21,26 +22,135 @@
     </div>
 
     <div class="cuerpo">
-        <h2>Nuestros Servicios</h2>
-        <p>En TecnoInnovation ofrecemos una variedad de servicios para satisfacer tus necesidades tecnológicas.</p>
+        <div class="banner">
+            <h1>Nuestros Servicios</h1>
+            <p>Soluciones tecnológicas innovadoras para impulsar el crecimiento de tu negocio</p>
+        </div>
         
         <div class="servicios-lista">
             <div class="servicio-item">
+                <div class="contenedor-icono">
+                    <i class="fas fa-code"></i>
+                </div>
                 <h3>Desarrollo de Software a Medida</h3>
                 <p>Creamos soluciones personalizadas que se adaptan perfectamente a los requisitos específicos de tu negocio.</p>
+                <ul class="lista-caracteristicas">
+                    <li>Aplicaciones web empresariales</li>
+                    <li>Sistemas de gestión interna</li>
+                    <li>APIs y microservicios</li>
+                </ul>
+                <a href="#" class="boton-mas">Más información</a>
             </div>
             
             <div class="servicio-item">
+                <div class="contenedor-icono">
+                    <i class="fas fa-chart-line"></i>
+                </div>
                 <h3>Consultoría en Transformación Digital</h3>
                 <p>Te guiamos en el proceso de digitalización con estrategias adaptadas a tus objetivos empresariales.</p>
+                <ul class="lista-caracteristicas">
+                    <li>Auditoría tecnológica</li>
+                    <li>Plan de implementación digital</li>
+                    <li>Optimización de procesos</li>
+                </ul>
+                <a href="#" class="boton-mas">Más información</a>
             </div>
             
             <div class="servicio-item">
+                <div class="contenedor-icono">
+                    <i class="fas fa-cloud"></i>
+                </div>
                 <h3>Implementación de Soluciones en la Nube</h3>
                 <p>Optimizamos tus recursos tecnológicos con implementaciones en la nube seguras y escalables.</p>
+                <ul class="lista-caracteristicas">
+                    <li>Migración a la nube</li>
+                    <li>Arquitecturas serverless</li>
+                    <li>Servicios AWS/Azure/GCP</li>
+                </ul>
+                <a href="#" class="boton-mas">Más información</a>
+            </div>
+            
+            <div class="servicio-item">
+                <div class="contenedor-icono">
+                    <i class="fas fa-mobile-alt"></i>
+                </div>
+                <h3>Desarrollo de Aplicaciones Móviles</h3>
+                <p>Diseñamos y desarrollamos aplicaciones nativas e híbridas para iOS y Android.</p>
+                <ul class="lista-caracteristicas">
+                    <li>UX/UI de última generación</li>
+                    <li>Integración con APIs existentes</li>
+                    <li>Mantenimiento y soporte</li>
+                </ul>
+                <a href="#" class="boton-mas">Más información</a>
+            </div>
+            
+            <div class="servicio-item">
+                <div class="contenedor-icono">
+                    <i class="fas fa-shield-alt"></i>
+                </div>
+                <h3>Ciberseguridad</h3>
+                <p>Protegemos tu negocio contra amenazas digitales con soluciones de seguridad avanzadas.</p>
+                <ul class="lista-caracteristicas">
+                    <li>Pentesting y auditorías</li>
+                    <li>Implementación de protocolos</li>
+                    <li>Formación en seguridad</li>
+                </ul>
+                <a href="#" class="boton-mas">Más información</a>
+            </div>
+            
+            <div class="servicio-item">
+                <div class="contenedor-icono">
+                    <i class="fas fa-robot"></i>
+                </div>
+                <h3>Inteligencia Artificial</h3>
+                <p>Aprovecha el poder del machine learning y la IA para optimizar tus operaciones.</p>
+                <ul class="lista-caracteristicas">
+                    <li>Análisis predictivo</li>
+                    <li>Chatbots inteligentes</li>
+                    <li>Automatización de procesos</li>
+                </ul>
+                <a href="#" class="boton-mas">Más información</a>
             </div>
         </div>
+        <section class="contacto-rapido">
+            <h2>Contáctenos</h2>
+            <p>Completa el formulario y nos pondremos en contacto contigo</p>
+            <form class="formulario-contacto">
+                <div class="grupo-formulario">
+                    <input type="text" placeholder="Nombre" required>
+                </div>
+                <div class="grupo-formulario">
+                    <input type="email" placeholder="Email" required>
+                </div>
+                <div class="grupo-formulario">
+                    <select>
+                        <option value="" disabled selected>Seleccione su servicio</option>
+                        <option value="desarrollo">Desarrollo de Software</option>
+                        <option value="consultoria">Consultoría en Línea</option>
+                        <option value="nube">Soluciones en la Nube</option>
+                        <option value="movil">Aplicaciones Móviles</option>
+                        <option value="seguridad">Ciberseguridad</option>
+                        <option value="ia">Inteligencia Artificial</option>
+                    </select>
+                </div>
+                <div class="grupo-formulario">
+                    <textarea placeholder="Tu mensaje" rows="4"></textarea>
+                </div>
+                <button type="submit" class="boton-enviar">Enviar consulta</button>
+            </form>
+        </section>
     </div>
     
+    <footer class="pie-pagina">
+        <div class="contenido-pie">
+            <p>&copy; 2023 TecnoInnovation. Todos los derechos reservados.</p>
+            <div class="redes-sociales">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>

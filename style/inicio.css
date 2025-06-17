@@ -9,6 +9,7 @@ body {
     color: #333;
 }
 
+/* Encabezado */
 .cabeza {
     background-color: #0066cc;
     color: white;
@@ -24,13 +25,13 @@ body {
     letter-spacing: 1px;
 }
 
+/* Menú lateral */
 .menu-lateral {
     background-color: #0077dd;
     width: 200px;
     position: fixed;
     height: 100%;
     box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
-    transition: all 0.3s ease;
 }
 
 .menu-lateral ul {
@@ -40,7 +41,6 @@ body {
 }
 
 .menu-lateral li {
-    padding: 0;
     margin-bottom: 5px;
 }
 
@@ -57,54 +57,259 @@ body {
     padding-left: 25px;
 }
 
+/* Contenido principal */
 .cuerpo {
-    
     margin-left: 220px;
-    padding: 25px;
+    padding: 0;
     flex: 1;
 }
 
+/* Banner principal */
+.banner-principal {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://via.placeholder.com/1600x800');
+    background-size: cover;
+    height: 500px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0 20px;
+}
+
+.contenido-banner {
+    max-width: 800px;
+}
+
+.contenido-banner h1 {
+    font-size: 42px;
+    margin-bottom: 20px;
+}
+
+.contenido-banner p {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.boton-conocenos {
+    background-color: #0077dd;
+    color: white;
+    padding: 12px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.boton-conocenos:hover {
+    background-color: #005bb8;
+}
+
+/* Contenedor general para secciones */
+.contenedor {
+    padding: 60px 25px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Títulos */
 .cuerpo h2 {
     color: #0066cc;
-    margin-top: 0;
+    margin-bottom: 20px;
     border-bottom: 2px solid #eaeaea;
     padding-bottom: 10px;
+    font-size: 28px;
 }
 
-.cuerpo ul {
-    list-style-type: square;
-    color: #444;
+.cuerpo h3 {
+    color: #333;
+    font-size: 22px;
+    margin-top: 0;
 }
 
-.cuerpo li {
-    margin-bottom: 10px;
-    padding: 5px 0;
+/* Sección Nosotros */
+.seccion-nosotros {
+    background-color: #ffffff;
 }
 
-.servicios-lista {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-    gap: 20px;
-    margin-top: 20px;
+.info-nosotros {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
-.servicio-item {
-    background-color: white;
+.imagen-nosotros {
+    flex: 1;
+    min-width: 300px;
+}
+
+.imagen-nosotros img {
+    max-width: 100%;
     border-radius: 8px;
-    padding: 20px;
-    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease;
 }
 
-.servicio-item:hover {
+.texto-nosotros {
+    flex: 1;
+    min-width: 300px;
+}
+
+.texto-nosotros p {
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+/* Sección Misión y Visión */
+.seccion-mision-vision {
+    background-color: #f8f9fa;
+}
+
+.columnas-mv {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.columna {
+    flex: 1;
+    min-width: 300px;
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+    text-align: center;
+}
+
+.icono {
+    font-size: 40px;
+    color: #0077dd;
+    margin-bottom: 20px;
+}
+
+/* Sección Equipo */
+.seccion-equipo {
+    background-color: #ffffff;
+}
+
+.miembros-equipo {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.miembro {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+}
+
+.miembro:hover {
     transform: translateY(-5px);
 }
 
-.main {
+.foto-miembro {
+    width: 120px;
+    height: 120px;
+    background-color: #ddd;
+    border-radius: 50%;
+    margin: 0 auto 15px;
+}
 
-    background-color: blueviolet
-    justify-content: center;
-    margin-bottom: 10px;
-    padding: 25px ;
+.miembro h3 {
+    margin: 0;
+    font-size: 18px;
+}
 
+.miembro p {
+    color: #666;
+    margin: 5px 0 0;
+}
+
+/* Pie de página */
+.pie-pagina {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    margin-left: 200px;
+}
+
+.contenido-pie {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.redes-sociales a {
+    color: white;
+    margin-left: 15px;
+    font-size: 18px;
+}
+
+.redes-sociales a:hover {
+    color: #0077dd;
+}
+
+/* Diseño responsivo */
+@media (max-width: 768px) {
+    .menu-lateral {
+        width: 100%;
+        height: auto;
+        position: relative;
+    }
+    
+    .cuerpo, .pie-pagina {
+        margin-left: 0;
+    }
+    
+    .info-nosotros, .columnas-mv {
+        flex-direction: column;
+    }
+    
+    .contenido-pie {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .banner-principal {
+        height: 400px;
+    }
+    
+    .contenido-banner h1 {
+        font-size: 32px;
+    }
+}
+
+.boton-mas:hover {
+    background-color: #005bb8;
+}
+
+.pie-pagina {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    margin-left: 200px;
+}
+
+.contenido-pie {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.redes-sociales a {
+    color: white;
+    margin-left: 15px;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+.redes-sociales a:hover {
+    color: #0077dd;
 }
