@@ -115,11 +115,7 @@ footer {
 }
 
 .info-contacto {
-  background-image: url('../images/fondo-tecnologia.jpg');
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  color: white; /* para que el texto contraste con la imagen */
+  background-color: #3c7fe4; 
   padding: 20px;
   border-radius: 10px;
   margin-top: 20px;
