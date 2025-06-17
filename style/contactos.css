@@ -1,0 +1,23 @@
+.info-contacto {
+    background-color: #e3f2fd;
+    padding: 20px;
+    border-left: 5px solid #0d47a1;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+.info-contacto p {
+    margin-bottom: 10px;
+}
+
+.info-contacto a {
+    color: #0d47a1;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.info-contacto a:hover {
+    text-decoration: underline;
+}
